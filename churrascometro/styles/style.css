@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    font-family: sans-serif;
+    max-width: 300px;
+    margin: auto;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+input{
+    width: 100%;
+    display: block;
+    padding: 5px;
+    margin-bottom: 10px;
+}
