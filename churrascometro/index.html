@@ -8,12 +8,17 @@
     <title>Churrascometro</title>
 </head>
 <body>
+
+    <h1 class="titulo">Calcule a quantidade de alimentos nescessarios para seu churrasco</h1>
     
     <div class="container">
         <h1>Churrascômetro</h1>
-        <input id="adultos" name="adultos" type="number" placeholder="Quantidade de adultos" >
-        <input id="criancas" name="criancas" type="number" placeholder="Quantidade de crianças" >
-        <input id="duracao" name="duracao" type="number" placeholder="Digite a duração (horas)" >
+        <label>Quantidade de adultos:</label>
+        <input id="adultos" name="adultos" type="number" placeholder="Ex: 4" >
+        <label>Quantidade de crianças:</label>
+        <input id="criancas" name="criancas" type="number" placeholder="Ex: 2" >
+        <label>Digite a duração (horas):</label>
+        <input id="duracao" name="duracao" type="number" placeholder="Ex: 7" >
         <button onclick="calcular()">Calcular</button>
 
         <div id="resultado">
